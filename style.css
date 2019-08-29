@@ -1,0 +1,47 @@
+*, *::before,
+  *::after{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  nav li{
+      list-style: none;
+      display: inline-block;
+      font-size: 25px;
+      color: white;
+      padding: 10px 15px;
+  } 
+  nav ul{ 
+    background-color: grey;     
+    padding: 0px; 
+    margin: 0px;
+  }
+   
+  h2{
+      text-align: center;
+      font-size: 30px;
+      margin: 25px;
+      color: black;
+  }
+  .pictures article{
+      display: inline-block;
+      margin-top: 5px;
+      margin-left: 5px;
+      margin-bottom: 40px;
+  }
+  .contact{
+      font-size: 30px;
+      color: grey;
+      margin-right: 1300px;
+    
+  }      
+  
+  
+  input[type="text"],
+  textarea,
+  select{
+      width: 80%;
+      display: block;
+      margin-left: 10%;
+      margin-top: 15px;
+  }
